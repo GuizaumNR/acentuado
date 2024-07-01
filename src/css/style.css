@@ -1,25 +1,47 @@
-body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f0f0f0;
-}
-.container {
-    text-align: center;
-    background: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-input, button {
-    padding: 10px;
-    margin: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-}
-#result {
-    font-size: 1.2em;
-    margin-top: 20px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+        body {
+            font-family: 'Fredoka One', cursive;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #ffdd59;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            background: #fff;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+        input, button {
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            border: none;
+            font-size: 1em;
+        }
+        input {
+            border: 2px solid #ff6b6b;
+        }
+        button {
+            background-color: #1dd1a1;
+            color: #fff;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #10ac84;
+        }
+        #result {
+            font-size: 1.2em;
+            margin-top: 20px;
+        }
+        h1 {
+            color: #ff6b6b;
+        }
+        #word {
+            color: #2e86de;
+            font-size: 1.5em;
+        }
